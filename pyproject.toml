@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "incidence"
+version = "0.1.0"
+description = "COVID-19 incidence figures for Italy"
+authors = ["Carl Mattsson <carl.mattsson@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.3"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.0"
+ipykernel = "^5.5.0"
+matplotlib = "^3.3.4"
+pylint = "^2.7.2"
+pytest = "^5.2"
+seaborn = "^0.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
