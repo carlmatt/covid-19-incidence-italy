@@ -24,4 +24,4 @@ df_covid['cases_increase'] = df_covid['cases_increase'].astype('int')
 
 df_covid[df_covid.denominazione_provincia == 'Parma']
 
-df_covid[df_covid.denominazione_provincia == 'Parma'].set_index('data').cases_increase.plot()
+df_covid[df_covid.denominazione_provincia == 'Torino'].set_index('data').cases_increase.plot()
